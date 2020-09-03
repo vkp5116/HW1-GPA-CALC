@@ -26,7 +26,7 @@ elif grade == "D":
  gpq = 1.0
  print(f"Grade point for course 1 is: {gpq}")
 else:
- gpq = 0
+ gpq = 0.0
  print(f"Grade point for course 1 is: {gpq}")
 
 
@@ -34,7 +34,7 @@ grade = input("Enter your course 2 letter grade: ")
 cb = input("Enter your course 2 credit: ")
 cb = float(cb)
 if grade == "A":
- gpw = 4
+ gpw = 4.0
  print(f"Grade point for course 2 is: {gpw}")
 
 elif grade == "A-": 
@@ -59,7 +59,7 @@ elif grade == "D":
   gpw = 1.0 
   print(f"Grade point for course 2 is: {gpw}")
 else:
-  gpw = 0
+  gpw = 0.0
   print(f"Grade point for course 2 is: {gpw}")
 
 
@@ -91,7 +91,7 @@ elif grade == "D":
   gpe = 1.0
   print(f"Grade point for course 3 is: {gpe}")
 else:
-  gpe = 0
+  gpe = 0.0
   print(f"Grade point for course 3 is: {gpe}")
 
 nr = (gpq*ca)+(gpw*cb)+(gpe*cc)
